@@ -1,11 +1,4 @@
 <template>
-	<!-- <footer class="footer mt-auto py-3 bg-light fixed-bottom">
-		<div class="container">
-			<span class="text-muted"
-				><a href="http://gnict.co.kr/">copyRight gnict.co.kr</a></span
-			>
-		</div>
-	</footer> -->
 	<div class="container">
 		<footer class="row row-cols-5 py-5 my-5 border-top">
 			<div class="col">

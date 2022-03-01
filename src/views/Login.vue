@@ -8,7 +8,7 @@
 				width="72"
 				height="57"
 			/>
-			<h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+			<h1 class="h3 mb-3 fw-normal">로그인</h1>
 
 			<div class="form-floating">
 				<input
@@ -16,17 +16,19 @@
 					class="form-control"
 					id="floatingInput"
 					placeholder="name@example.com"
+					required="required"
 				/>
-				<label for="floatingInput">Email address</label>
+				<label for="floatingInput">이메일</label>
 			</div>
 			<div class="form-floating">
 				<input
 					type="password"
 					class="form-control"
 					id="floatingPassword"
-					placeholder="Password"
+					placeholder="비밀번호"
+					required="required"
 				/>
-				<label for="floatingPassword">Password</label>
+				<label for="floatingPassword">비밀번호</label>
 			</div>
 
 			<div class="checkbox mb-3">
@@ -35,7 +37,7 @@
 				</label>
 			</div>
 			<button class="w-100 btn btn-lg btn-primary" type="submit">
-				Sign in
+				로그인 하기
 			</button>
 			<p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
 		</form>
@@ -47,7 +49,7 @@ export default {};
 </script>
 
 <style scoped>
-html,
+/* html,
 body {
 	height: 100%;
 }
@@ -58,7 +60,7 @@ body {
 	padding-top: 40px;
 	padding-bottom: 40px;
 	background-color: #f5f5f5;
-}
+} */
 
 .form-signin {
 	width: 100%;

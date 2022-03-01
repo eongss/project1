@@ -2,7 +2,7 @@
 	<div id="app">
 		<!-- 추가된 헤더 컴포넌트 사용 -->
 		<Header />
-		<SideNav />
+		<!-- <SideNav /> -->
 		<router-view />
 		<!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
 
